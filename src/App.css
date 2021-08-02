@@ -27,12 +27,27 @@
 .App-link {
   color: #61dafb;
 }
+.line{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputForm{
+  margin: 0 100px;
+  height:20px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  background-color: #181a1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.output>input,textarea, select{
+  margin:15px;
 }
